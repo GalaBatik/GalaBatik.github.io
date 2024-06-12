@@ -15,7 +15,6 @@ jobs:
           npm install --legacy-peer-deps
           npm audit fix 
           npm run build
-          npm run export
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
