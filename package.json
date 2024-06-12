@@ -13,10 +13,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build && next export",
+    "start": "next start --port 80",
     "lint": "next lint",
-    "export": "next export",
     "type-check": "tsc"
   },
   "dependencies": {
