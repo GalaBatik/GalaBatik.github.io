@@ -5,11 +5,11 @@ type Props = {
   children?: ReactNode;
   title?: string;
 };
-
+const webTitle = 'Gala Batik - Premium Batik Art';
 const Layout = ({ children, title = "Title" }: Props) => (
   <div className="relative min-h-screen flex flex-col justify-center items-center bg-hero bg-cover">
     <Head>
-      <title>{title} | Gala Batik - Premium Batik Art</title>
+      <title>{`${title} | ${webTitle}`}</title>
       <link rel="icon" type="image/png" href="/images/logo.png" />
 
       <meta charSet="utf-8" />
