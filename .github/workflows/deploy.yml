@@ -1,7 +1,8 @@
 name: Build and Deploy
-on: 
+on:
   push:
-    main
+    branches:
+      - main
 permissions:
   contents: write
 jobs:
